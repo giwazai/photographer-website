@@ -1,0 +1,201 @@
+
+
+* {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: white;
+    overflow: hidden;
+    padding: 10px 20px;
+    text-align: right;
+}
+
+
+.navbar .logo {
+    float: left;
+    color: #333;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navbar a {
+    display: inline-block;
+    color: #333;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+    transition: transform 0.3s;
+    font-size: 25px;
+    font-weight: lighter;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navbar a:hover {
+    transform: scale(1.1);
+}
+
+.MainPhoto {
+    width: 100%;
+    /* height: 950px;
+    width: 1600px; */
+}
+
+
+.MainButton {
+    position: relative;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 40px;
+    border-radius: 15px 15px 15px 15px;
+    transition: 0.3s;
+    text-decoration: none !important;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.MainButton a:hover {
+    transform: scale(1.1);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    text-align: center;
+}
+
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    width: 90%;
+    margin: 50px auto;
+    gap: 20px;
+}
+
+.about-photo {
+    width: 250px;
+    height: 350px;
+    object-fit: fill;
+    border-radius: 60%;
+}
+
+.about-text {
+    max-width: 500px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+
+h2 {
+    font-weight: 600;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.PhotoTittle {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+
+.photo-container {
+    padding: 10px 0px;
+}
+
+.Portfolio1 {
+    height: 500px;
+    width: 800px;
+}
+
+.Portfolio2 {
+    height: 600px;
+    width: 700px;
+}
+
+.Portfolio3 {
+    height: 500px;
+    width: 370px;
+}
+
+.Portfolio4 {
+    height: 600px;
+    width: 465px;
+}
+
+.Portfolio5 {
+    height: 300px;
+    width: 300px;
+}
+
+.AboutTittle {
+    font-size: 40px;
+}
+
+.ContactsTittle {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+
+.name {
+    font-size: 30px;
+    margin-bottom: 20px;
+    border-radius: 5px 5px 5px 5px;
+    border: 3px solid black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.email {
+    font-size: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px 5px 5px 5px;
+    border: 3px solid black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.submit {
+    font-size: 30px;
+    margin-bottom: 80px;
+    border-radius: 5px 5px 5px 5px;
+    border: 3px solid black;
+    background-color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
